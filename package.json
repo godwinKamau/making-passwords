@@ -1,0 +1,29 @@
+{
+  "name": "making-passwords",
+  "version": "1.0.0",
+  "description": "Learning about passwords through https://www.digitalocean.com/community/tutorials/how-to-handle-passwords-safely-with-bcryptsjs-in-javascript",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godwinKamau/making-passwords.git"
+  },
+  "author": "Godwin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/godwinKamau/making-passwords/issues"
+  },
+  "homepage": "https://github.com/godwinKamau/making-passwords#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongodb": "^6.20.0",
+    "mongoose": "^8.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
